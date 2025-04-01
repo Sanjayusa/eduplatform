@@ -1,0 +1,108 @@
+/* h2.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9; /* Light gray background */
+    height: 100vh;
+    margin: 0;
+}
+
+.categories-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.categories-container h2 {
+    font-size: 2rem;
+    color: #333; /* Dark gray */
+}
+
+/* Category Card Styles */
+.category-card {
+    width: 300px;
+    padding: 20px;
+    margin: 10px auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.category-card:hover {
+   background-color: #6a11cb; /* Purple hover effect */
+   color: white; /* Text color change on hover */
+}
+
+/* Navigation Button Styles */
+.nav-button {
+   display:inline-block; 
+   padding :10px 20px; 
+   margin-top :20px; 
+   background-color :#6a11cb; 
+   color:white; 
+   text-decoration:none; 
+   border-radius :5px; 
+   font-size :1rem; 
+   transition :background-color .3s ease, transform .3s ease; 
+}
+
+.nav-button:hover {
+   background-color :#2575fc; 
+   transform :scale(1.05); 
+}
+
+/* General Button Styling */
+.nav-button {
+    display: inline-block;
+    padding: 15px 30px; /* Adjust padding for rectangle shape */
+    margin: 10px; /* Space between buttons */
+    background-color: #6a11cb; /* Purple gradient */
+    color: white;
+    text-decoration: none;
+    border-radius: 8px; /* Slightly rounded corners */
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover Effect */
+.nav-button:hover {
+    background-color: #2575fc; /* Blue hover effect */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Active State (Optional) */
+.nav-button:active {
+    background-color: #1b4d99; /* Darker blue when clicked */
+}
+/* General Button Styling */
+.nav-button {
+    display: inline-block; /* Make it a block element */
+    padding: 15px 30px; /* Adjust padding for rectangle shape */
+    margin: 10px; /* Space around the button */
+    background-color: #6a11cb; /* Purple background */
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline from link */
+    border-radius: 8px; /* Slightly rounded corners */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center text */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover Effect */
+.nav-button:hover {
+    background-color: #2575fc; /* Blue hover effect */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Active State (Optional) */
+.nav-button:active {
+    background-color: #1b4d99; /* Darker blue when clicked */
+}

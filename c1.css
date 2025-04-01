@@ -1,0 +1,63 @@
+/* h1.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Purple to blue gradient */
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.login-container h1 {
+    font-size: 2rem;
+    color: #2575fc; /* Blue color */
+}
+
+.login-container input {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.login-container button {
+    background-color: #6a11cb; /* Purple color */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color:blue; /* Blue hover effect */
+}
+
+/* Navigation Button Styles */
+.nav-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px; /* Space above button */
+    background-color: #6a11cb; /* Purple background */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Add transform for hover effect */
+}
+
+.nav-button:hover {
+    background-color: #2575fc; /* Blue hover effect */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}

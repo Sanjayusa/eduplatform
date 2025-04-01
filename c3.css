@@ -1,0 +1,115 @@
+/* h3.css */
+body {
+    font-family:'Arial', sans-serif; 
+    background-color:#e0e0e0; /* Light cream background */ 
+ }
+ 
+ .content-container { 
+    display:flex; 
+    flex-direction:center; 
+    justify-content:center; 
+    align-items:center; 
+    height :100vh ; /* Full viewport height */ 
+ }
+ 
+ .content-container h2 { 
+    font-size :2rem ; 
+ }
+ 
+ /* Audio Player Styles */
+ audio { 
+    margin-top :20px ; 
+ }
+ 
+ /* Navigation Button Styles */
+ .nav-button { 
+    display:inline-block ; 
+    padding :10px 20px ; 
+    margin-top :20px ; 
+    background-color :#6a11cb ; /* Purple background */ 
+    color:white ;  
+    text-decoration:none ;  
+    border-radius :5px ;  
+    font-size :1rem ;  
+    transition :background-color .3s ease, transform .3s ease ;  
+ }
+ 
+ .nav-button:hover {  
+    background-color :#2575fc ;  
+    transform :scale(1.05) ;  
+ }
+ /* General Button Styling */
+.nav-button {
+    display: inline-block; /* Make it a block element */
+    padding: 15px 30px; /* Adjust padding for rectangle shape */
+    margin: 10px; /* Space around the button */
+    background-color: #6a11cb; /* Purple background */
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline from link */
+    border-radius: 8px; /* Slightly rounded corners */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center text */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover Effect */
+.nav-button:hover {
+    background-color: #2575fc; /* Blue hover effect */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Active State (Optional) */
+.nav-button:active {
+    background-color: #1b4d99; /* Darker blue when clicked */
+}
+/* General body styling */
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #f4f4f9; /* Light background color */
+}
+
+/* Navigation bar styling */
+.main-nav {
+   background-color: #333; /* Dark background for nav bar */
+   color: white;
+   padding: 10px;
+   display: flex;
+   justify-content: space-between; /* Space between nav links */
+}
+
+.nav-button {
+   color: white;
+   text-decoration: none;
+   margin-right: 20px;
+   font-size: 16px;
+}
+
+.nav-button:hover {
+   text-decoration: underline; /* Adds underline on hover */
+}
+
+/* Content container styling */
+.content-container {
+   padding: 20px;
+   display: flex;
+   flex-wrap: wrap; /* Allows videos to wrap to the next line */
+   justify-content: space-around; /* Centers and spaces out videos */
+}
+
+/* Video styling */
+video {
+   margin: 10px; /* Adds spacing between videos */
+   border: 2px solid #ccc; /* Optional border around videos */
+   border-radius: 5px; /* Rounds corners of videos */
+}
+
+/* Heading styling */
+h2 {
+   text-align: center;
+   color: #333; /* Dark color for heading text */
+   margin-bottom: 20px;
+}
